@@ -8,7 +8,7 @@
 * We send our username and password to the telegram bot which gets stored in a variable for verification purpose.
 
 ## Password Checking (with Google Sheet)
-* On receiving the input from user, we crosscheck it with the data present in the google sheet named ”login” already containing the login details. The details of username,password and opening balance is set from the sheet. The login data is set and the opening balance is set to Rs.15000.\\
+* On receiving the input from user, we crosscheck it with the data present in the google sheet named ”login” already containing the login details. The details of username,password and opening balance is set from the sheet. The login data is set and the opening balance is set to Rs.15000.<br/>
 Google sheet link: https://docs.google.com/spreadsheets/d/1NEXAgkDvvR9sJaMHwiI_EgIfJ7B_oycioqkUwkHnRLE/edit?usp=sharing
 
 ## Making Transactions
@@ -17,7 +17,7 @@ Google sheet link: https://docs.google.com/spreadsheets/d/1NEXAgkDvvR9sJaMHwiI_E
 * The summary of the transaction containing the opening balance, current balance, amount withdrawn/deposited and the final remaining balance is displayed on telegram and the Serial Monitor. The Google sheet is also updated with these details in a tabular format. 
 * The user also has the feature to check his current balance details which shows his/her remaining balance.
 
-## Send Receipt to Mail (additional feature)
+## Send Receipt to Mail 
 * When the user logs out from the system, a mail is sent the user’s email id containing the receipt of the last transactions done on the atm system.
 
 
